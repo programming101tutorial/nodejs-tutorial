@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node .",
     "test": "jest",
-    "coverage": "jest --collect-coverage"
+    "coverage": "jest --collect-coverage",
+    "sonar:scanner": "sonar-scanner"
   },
   "repository": {
     "type": "git",
