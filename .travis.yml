@@ -25,5 +25,8 @@ deploy:
     cleanup: true
     api_key: $API_KEY
     # github_token: $GITHUB_TOKEN
-    on:
-        branch: master
+    # app: nodejstutorial1
+    # on:
+    #     branch: master
+    app:
+        master: nodejstutorial1
