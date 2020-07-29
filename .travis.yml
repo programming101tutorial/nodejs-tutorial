@@ -14,7 +14,7 @@ script:
 deploy:
   provider: heroku
   api_key:
-    secure: HwmETDf//Y6KyPT7wYtFHqlkdqqz3fbQZh8xCp7vUyQ+PZ9J/FjvmOn9FB5jGY/JxeezvFMQOcsI/mZSI7Tg2d3XxXCFfF83dMx3p2UwHPuzDQYDUfGPq/BS72QHkcsQ0mZo0V7Z7/oxK3Zh6wAt6F85Tb8AOiH93FtXfBBPj4cBRyZ14+G9/Ud7HuLXxyFh5hUEenyzp+sNLby/9v8InyGKipq5CTnxezhw1xT7U0YtUORpn9ARNvS5fdtGIdKCp+0fDlRhFNqKGfn5Rg7/4kC/EP+d6akULEBdaeK6Th2mbv9TR7FCOPCL9RqlRE1B8JbVrTtBwEi4BcMULDesLi+M1vXipt3WQfej7FJoQfl9wDNx4bjD9IiRgIg58LDz1X3TvKK8g7eRU3pgLDp+TVHSVpLL7pkoZhoGeP1PCqV++G4qyy84t+aQuSEHZEbslr3xz1fsFYtBmYvisAtXlqbn2VWR34ZU+z2oorD/mHpWxnTRVXI2AM56pb8mLkHpnSyR88EjxXIhw0m37kNrtuUGTYI1yxSEDNDc+q6uYPuQdnvtx4GOlShlfAU4k5nmA4++j6KR/VJkw6doD50eg2BAjAZ3bonZQvB9J2QzCKxal84SShSvuSuDpnaAhsL7F3Z5CEjVMoo55ii/S3sTGOJ+EueS600BRz3HMeFmNU0=
+    secure: 9f33ed8c-6ca0-49c6-b880-aaedc7dd44e2
   app: nodejs-tutorial
   on:
     repo: programming101tutorial/nodejs-tutorial
