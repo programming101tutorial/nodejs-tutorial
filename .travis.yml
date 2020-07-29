@@ -14,8 +14,8 @@ script:
 deploy:
   provider: heroku
   api_key:
-    secure: 9f33ed8c-6ca0-49c6-b880-aaedc7dd44e2
-  app: nodejs-tutorial
+    secure: kcxY5Gf5wNC9+iSNsG6sTXNAwjUNhsFQ4hWlh4qaWNPBThUMFOxmLKkWXHim+keHFNOC/k+0ufGsinDKqxfhZzWHfUPorVvfnphAIMBwsgLMT99zzPCaArIJHBU6I+LrRWv+fEPQZ83kFPHveos9AFvpLsxr3bbM4+tJerPIft5ENtTQJ/NcQX7mkTg/ngWZDQQJwnAu6eqR9yr75j/9+hpzOy+119FFsggZV8MqC5ILziVCirBbaj5S51uxRlrs2mhfVZWIk42glZSaNBRM2FMJcae5XZZP8dAnrGVgE6vR9+1Cfnxl1eC+eoOsrnFYtNtFXIvoW3RAygaLzWnhb+SyZQfMwzk8N7qi3Z/Jr7wtHzh38w6qV6rZUxGtcPuz2pLY4AzQobQ0soZsGcgk+KWqLYJIOY8Tx1gLn8Ax/sHIHEjyfPQ6MXc0H6QxOyfBc6Wd7sdDPpewITfAasR4IovrIc/e5BGmN7/WJmLMGJzHGCG8PW6MyoEdUxX3EjLGGlIgRiOMr4ueYgMKRGGmCl2OoPLfh+AKibMSSkJuDxLC4NHk7Y0LaPgQMAFcp7iNrDmPNZUzM8w7mBWuiXk+lCkZjZUk/RxXbK/BVB3QDE8HUNZbv0MmDLdj2dwEv27F7c+EFygNlJ/whiCB5MFFL5NwtSnZb+SvdRM97SNAEjc=
+  app: nodejstutorial1
   on:
     repo: programming101tutorial/nodejs-tutorial
   skip_cleanup: 'true'
