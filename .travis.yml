@@ -21,8 +21,9 @@ script:
     # - sonar-scanner
 
 deploy:
-    provider: pages
+    provider: heroku
     cleanup: true
-    github_token: $GITHUB_TOKEN
+    api_key: $API_KEY
+    # github_token: $GITHUB_TOKEN
     on:
         branch: master
