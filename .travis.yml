@@ -1,11 +1,21 @@
 language: node_js
 node_js:
     - 12
+cache: npm
 install:
     - npm ci
     # keep the npm cache around to speed up installs
-    cache:
-      npm: false
+
+script:
+    - npm run test
+    - npm run build
+
+deploy:
+    skip-cleanup: true
+    github-token: $GITHUB_TOKEN
+    on:
+        branch: master
+
 addons:
 sonarcloud:
     organization: "programming101tutorial"
