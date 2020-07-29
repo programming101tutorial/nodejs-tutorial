@@ -2,9 +2,9 @@ language: node_js
 node_js:
     - 12
 cache: npm
-env:
-    - NODE_ENV=development
-    - PORT=3000
+# env:
+#     - NODE_ENV=development
+#     - PORT=3000
 install:
     - npm ci
     # keep the npm cache around to speed up installs
@@ -18,7 +18,7 @@ addons:
 # the following command line builds the project, runs the tests with coverage and then execute the SonarCloud analysis
 script:
     - npm run test
-    - sonar-scanner
+    # - sonar-scanner
 
 deploy:
     provider: pages
