@@ -10,10 +10,10 @@ install:
     # keep the npm cache around to speed up installs
 
 addons:
-sonarcloud:
-    organization: "programming101tutorial"
-    token:
-    secure: "ZANmuTqAD7IiQXINyPFyl7S8SifnUU90/OZC0ZCsNQ5clL9f0vyeWGIUykH5aBPqaZTfinRQDAxaM8P12IsgEHM994GqFrg0w+eX5o0vFfJ9UPGb+2FEGKt4KDjDTrxIi8FXLwLU9vGC2aXcf2dPMXhFrqDetudeH3OorUtUohFQ8gmiGfnLerYGc0LbuVLK97R5iuhXPzgvsosGd42Mpyu9pKapc2NmLnk6+5RpXrvbeRgbKFQIMt4/OyYLLgjJ045xt/NdD+lFUS6dgLYkHRuk37MwilLODn68qKT8K6hk3DutwSXQxed8SwFgoLnH4s29kpUhItW0ETHM8FjpH1Tz44KuR4seMgXnAFYWp3LR45QPf+RHTgCowmb5pd9KBr1QfbTGeUDCufgg3HrkYRsD+Qw7owoAqn92lGFZ38nzOonnboVT26Dg7Z/646hPkRE2gxDMLjckKc+PJQtoogbpx2zxZMR70O6XjXuPaSbOuGaWprJIPyHNjemwcgcIttWqZ/RuRdaM6lVTgyvzTnXdCwfpVnnJcfAoszZGYMgqP8z3MV6Cmp+xRSG/9HOk2EEtEXtF/nWTTRxK9XZdUUR8IF+rVZ3KqY6/gz7xkreYtCR14eBMYcmAGIh+qhBSKUa3mqqL19/g1dpbDRW5j6WcPpYSAl5ol05bApgnlYg=" # encrypted value of your token
+    sonarcloud:
+        organization: "programming101tutorial"
+        token:
+            secure: "ZANmuTqAD7IiQXINyPFyl7S8SifnUU90/OZC0ZCsNQ5clL9f0vyeWGIUykH5aBPqaZTfinRQDAxaM8P12IsgEHM994GqFrg0w+eX5o0vFfJ9UPGb+2FEGKt4KDjDTrxIi8FXLwLU9vGC2aXcf2dPMXhFrqDetudeH3OorUtUohFQ8gmiGfnLerYGc0LbuVLK97R5iuhXPzgvsosGd42Mpyu9pKapc2NmLnk6+5RpXrvbeRgbKFQIMt4/OyYLLgjJ045xt/NdD+lFUS6dgLYkHRuk37MwilLODn68qKT8K6hk3DutwSXQxed8SwFgoLnH4s29kpUhItW0ETHM8FjpH1Tz44KuR4seMgXnAFYWp3LR45QPf+RHTgCowmb5pd9KBr1QfbTGeUDCufgg3HrkYRsD+Qw7owoAqn92lGFZ38nzOonnboVT26Dg7Z/646hPkRE2gxDMLjckKc+PJQtoogbpx2zxZMR70O6XjXuPaSbOuGaWprJIPyHNjemwcgcIttWqZ/RuRdaM6lVTgyvzTnXdCwfpVnnJcfAoszZGYMgqP8z3MV6Cmp+xRSG/9HOk2EEtEXtF/nWTTRxK9XZdUUR8IF+rVZ3KqY6/gz7xkreYtCR14eBMYcmAGIh+qhBSKUa3mqqL19/g1dpbDRW5j6WcPpYSAl5ol05bApgnlYg=" # encrypted value of your token
 
 # the following command line builds the project, runs the tests with coverage and then execute the SonarCloud analysis
 script:
@@ -22,7 +22,7 @@ script:
 
 deploy:
     provider: pages
-    skip_cleanup: true
+    cleanup: true
     github_token: $GITHUB_TOKEN
     on:
         branch: master
