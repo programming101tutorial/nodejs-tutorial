@@ -20,7 +20,7 @@ const limiter = rateLimit({
 });
 app.use(limiter);
 
-app.get('/', (req, res) => res.send('Hello World!'));
+app.get('/', (req, res) => res.send('Hello World! test CI/CD'));
 
 app.use(function(req, res, next) {
   res.status(404).send('Sorry can\'t find that!');
